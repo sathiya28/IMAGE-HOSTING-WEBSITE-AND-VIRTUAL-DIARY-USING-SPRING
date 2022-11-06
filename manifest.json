@@ -1,0 +1,25 @@
+{
+    "name": "Image hosting and virtual diary",
+    "version": "1.0.0",
+    "description": "Store images and your diary",
+    "manifest_version": 3,
+    "author": "Sathiyamoorthi.d",
+    "action":{
+        "default_popup": "home.html",
+        "default_title": "Image hosting and virtual diary"
+    },
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+      ],
+      "content_scripts": [
+        {
+         "matches": ["<all_urls>"],
+
+          "css": ["style.css"],
+          "js": ["lib/jquery.min.js","script-signup.js","diary.js","image.js"]
+        }
+      ]
+     
+}
