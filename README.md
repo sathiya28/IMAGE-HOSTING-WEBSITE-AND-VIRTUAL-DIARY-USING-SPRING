@@ -10,3 +10,6 @@ Create an account with the website or and sign-up there.
 Choose an image from your system.
 Start posting the image !
 Login and access from anywhere.
+
+DATABASE
+TABLES -> USERS,IMAGES,DIARIES
